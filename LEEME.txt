@@ -1,0 +1,33 @@
+INVITACIÓN WEB DE BODA
+======================
+
+Cómo abrirla: hacer doble clic en index.html (se abre en el navegador).
+Para publicarla en internet, subir TODA la carpeta tal como está.
+
+ARCHIVOS
+- index.html   Estructura de la invitación (sobre, escenas del video y parte con scroll).
+- estilos.css  Colores, tipografías, animaciones y fondos.
+- datos.js     Datos del cliente: nombres, fecha, lugares, padres,
+               vestimenta, WhatsApp (el número no se muestra en pantalla, solo se usa en el enlace), fotos y música. Es lo único que se cambia
+               por cada invitación.
+- script.js    Funcionamiento: apertura del sobre, escenas automáticas,
+               transición al scroll, cuenta regresiva y enlaces.
+- fuegos.js   Fuegos artificiales animados que se muestran en lugar de las fotos.
+- imagenes/    Fondos, anillos (con R y A), iglesia, pareja de vestimenta, pareja de la
+               bendición, fondo de acuarela, marco botánico y esquinas de las fotos.
+
+PARA UN NUEVO CLIENTE
+1. Editar datos.js (nombres, iniciales, fecha, lugares, etc.).
+2. Fotos de los novios: copiarlas a imagenes/ y escribir sus rutas en "fotos"
+   dentro de datos.js, por ejemplo: fotos:['imagenes/foto1.jpg', ...]
+3. Música: copiar el MP3 a la misma carpeta que index.html y llamarlo audio.mp3
+   (ya está configurado así en datos.js). Suena al tocar el sobre. Si prefieres Google
+   Drive, compartir el MP3 como "Cualquier persona con el enlace" y pegar solo su ID
+   en musica.
+4. Anillos del sobre: reemplazar imagenes/anillos.webp (ya tiene R y A) por la imagen con las
+   iniciales de la nueva pareja.
+5. Otro estilo: cambiar los fondos (fondo-nombres.jpg y fondo-marmol.jpg) y los
+   colores que están al inicio de estilos.css.
+
+Las tipografías (Cormorant Garamond y Pinyon Script) se cargan desde Google Fonts,
+por lo que se necesita conexión a internet para verlas.
